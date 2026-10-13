@@ -7,7 +7,7 @@ with open("files/file.txt") as file: # Open file, put words into list and normal
     for word in range(len(words)):
         words[word] = words[word].lower() # Make all lowercase
 
-        words[word] = words[word].translate(str.maketrans('', '', string.punctuation)) # Remove punctuati punctuationn
+        words[word] = words[word].translate(str.maketrans('', '', string.punctuation)) # Remove punctuation punctuationn
 
 
 def getFreqDict():
