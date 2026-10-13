@@ -23,4 +23,6 @@ def getFreqDict():
 
     return wordsAndFreq
 
+
+
 print(getFreqDict())
